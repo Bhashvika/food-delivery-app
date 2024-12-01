@@ -3,7 +3,7 @@ import { useState } from "react";
 import axios from "axios";
 export const StoreContext=createContext(null);
 const StoreContextProvider=(props)=>{
-    const url="http://localhost:4000";
+    const url="https://food-delivery-app-inux.onrender.com";
     const [token,setToken]=useState("");
     const [food_list,setFoodlist]=useState([]);
     const [cartItems,setCartItems]=useState({});
